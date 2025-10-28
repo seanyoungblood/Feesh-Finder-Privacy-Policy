@@ -7,7 +7,7 @@ Effective Date: 10/22/2025
 Youngblood Software, LLC ("we", "our", or "us") operates the Feesh Finder app ("App"). This privacy policy outlines the information we collect, how we use it, and how we protect your privacy when using our App.
               
 Information Collection and Use
-Feesh Finder does not collect any personal information about the user or their device. The only information you provide is the data you submit directly through the app. This data is processed by AI models to generate predictions, but it is never stored or retained by us.
+Feesh Finder does not collect any personal information about the user or their device. The only information you provide is the data you submit directly through the app. This data is processed by AI models to generate predictions, but it is never stored or retained by us. We use Firebase App Check to help ensure that interactions with our backend services come from our official app. App Check uses device and app attestation features provided by the operating system to verify requests. No personal user data is collected or transmitted through this process.
 
 Firebase & Firestore
 We use Firebase Authentication to manage user accounts. Firebase may store your UID, email, and password (if provided) to allow you to log in. This information is stored securely by Google and is not accessible by us in a personally identifiable manner. Passwords are hashed by Firebase. We create a user document in Firestore when you register, which currently contains no personal information and is used solely to manage your account within the app.
